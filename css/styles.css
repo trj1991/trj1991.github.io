@@ -10872,3 +10872,17 @@ html {
   background-repeat: no-repeat;
   min-height: 15rem;
 }
+
+.text-wrap {
+  white-space: normal;
+}
+
+.level1, .level2 {
+    display: none;
+}
+.row.level1:hover .level2 {
+    display: block;
+}
+.level0:hover .level1 {
+    display: block;
+}
